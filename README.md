@@ -13,7 +13,7 @@
 
 ## About the Project
 
-This movie site although a work in progress is a site just like H&M that one can visit to buy a wide range of clothing accessories from the comfort of their homes and get it delivered to them
+This Fashion e-commerce site although a work in progress is a site just like H&M that one can visit to buy a wide range of clothing accessories from the comfort of their homes and get it delivered to them
 
 ## Features
 

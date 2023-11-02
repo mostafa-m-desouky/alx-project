@@ -6,8 +6,8 @@
 
 - [About the Project](#about-the-project)
 - [Features](#features)
-- [Usage](#usage)
-- [Contributing](#contributing)
+- [Getting Started] (#getting started) 
+- [Contributors](#contributors)
 - [License](#license)
 - [Contact](#contact)
 
@@ -30,4 +30,13 @@ The key features of the Fashion e-commerce site are:
 
 ## Getting Started
 
+- Clone the repository to your local machine [https://github.com/mostafa-m-desouky/alx-project]
+- Navigate the project directory [cd alx-project]
+- Open the "index.html" file in your web browser to explore the website
 
+## Contributors
+
+The following are the people who contributed to the success of this project
+- Mostafa-m-desouky <mostafa.m.desouky@gmail.com> 
+- Ayoub LECHKAR <lechayoub1@gmail.com>
+- Jegede Oluwatosin <oluwatosinjegede1@gmail.com>

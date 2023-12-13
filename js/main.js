@@ -87,3 +87,61 @@ function toggleMenu () {
         })
     })
 }
+
+// Sample product data
+const products = [
+    { id: 1, name: 'Product 1', price: 20.00 },
+    { id: 2, name: 'Product 2', price: 30.00 },
+    // add more products as needed
+];
+
+let cart = [];
+
+function openCart() {
+    document.getElementById('cart-modal').style.display = 'block';
+    updateCartUI();
+}
+
+function closeCart() {
+    document.getElementById('cart-modal').style.display = 'none';
+}
+
+function addToCart(productId) {
+    const product = products.find(p => p.id === productId);
+    if (product) {
+        cart.push(product);
+        updateCartUI();
+    }
+}
+
+function updateCartUI() {
+    const cartCount = document.getElementById('cart-count');
+    const cartItems = document.getElementById('cart-items');
+    const cartTotal = document.getElementById('cart-total');
+
+    cartCount.innerText = cart.length;
+    cartItems.innerHTML = '';
+    let total = 0;
+
+    cart.forEach(item => {
+        const li = document.createElement('li');
+        li.innerText = `${item.name} - $${item.price.toFixed(2)}`;
+        cartItems.appendChild(li);
+        total += item.price;
+    });
+
+    cartTotal.innerText = total.toFixed(2);
+}
+
+function checkout() {
+    // Implement your checkout logic here
+    alert('Checkout not implemented in MVP. This is just a demo.');
+}
+
+// Close the modal if the user clicks outside of it
+window.onclick = function (event) {
+    const cartModal = document.getElementById('cart-modal');
+    if (event.target === cartModal) {
+        cartModal.style.display = 'none';
+    }
+}

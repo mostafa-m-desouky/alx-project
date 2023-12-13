@@ -6,7 +6,7 @@
 
 - [About the Project](#about-the-project)
 - [Features](#features)
-- [Getting Started] (#getting started) 
+- [Getting Started](#getting started) 
 - [Contributors](#contributors)
 - [License](#license)
 - [Contact](#contact)
